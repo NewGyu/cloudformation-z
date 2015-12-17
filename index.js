@@ -1,8 +1,10 @@
 "use strict";
-var AWS = require("aws-sdk-promise");
 var Promise = require("promise");
-var configSchema = require("./lib/configSchema");
 var Deployer = require("./lib/deployer");
+var commander = require("commander");
+
+module.exports.Deployer = require("./lib/deployer");
+module.exports.EasyCommander = require("./lib/easyCommander");
 
 /**
  * @return {Promise}
