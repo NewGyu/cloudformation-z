@@ -14,8 +14,8 @@
   "dependencies": {
     "aws-sdk": "^2.2.21",
     "aws-sdk-promise": "0.0.2",
+    "commander": "^2.9.0",
     "jsonschema": "^1.0.2",
-    "object-merge": "^2.5.1",
     "promise": "^7.0.4"
   }
 }
