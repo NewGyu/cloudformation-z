@@ -1,6 +1,6 @@
 {
   "name": "cloudformation-z",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cloudformation wrapper",
   "main": "index.js",
   "engines": {
