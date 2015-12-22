@@ -5,3 +5,4 @@ var commander = require("commander");
 
 module.exports.Deployer = require("./lib/deployer");
 module.exports.EasyCommander = require("./lib/easyCommander");
+module.exports.Util = require("./lib/util");
