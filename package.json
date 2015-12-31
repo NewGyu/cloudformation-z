@@ -1,6 +1,6 @@
 {
   "name": "cloudformation-z",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "cloudformation wrapper",
   "main": "index.js",
   "engines": {
@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "cloudformation","aws"
+    "cloudformation",
+    "aws"
   ],
   "author": "NewGyu",
   "repository": {
@@ -19,7 +20,6 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "aws-sdk": "^2.2.21",
     "aws-sdk-promise": "0.0.2",
     "commander": "^2.9.0",
     "jsonschema": "^1.0.2",
